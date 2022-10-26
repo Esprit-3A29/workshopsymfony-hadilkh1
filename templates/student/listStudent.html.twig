@@ -7,3 +7,23 @@
 	<a href="#">Update</a>
 	<br>
 {% endfor %}
+<h1 style="color:red">Liste de étudiants ordonnées par moyenne</h1>
+<br>
+{% for c in TabMoyenne %}
+	ref :{{c.ref}}
+	username :{{c.username}}
+	moyenne:
+	{{c.moyenne}}
+	<br>
+{% endfor %}
+<br>
+<h1 style="color: deeppink">Top Students</h1>
+{% for i in topStudents %}
+	nce:
+	{{ i.ref}}
+	username:
+	{{ i.username }}
+	moyenne:
+	{{ i.moyenne }}
+	<br>
+{% endfor %}

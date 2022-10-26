@@ -29,7 +29,7 @@ class Student
     }
     public function setref(string $ref): self
     {
-        $this->username = $ref;
+        $this->ref = $ref;
 
         return $this;
     }

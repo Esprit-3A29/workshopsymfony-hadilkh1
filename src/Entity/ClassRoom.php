@@ -88,8 +88,8 @@ class ClassRoom
 
         return $this;
     }
-    public function __toString()
-    {
-        return (string)$this->getName();
-    }
+    #public function __toString() 
+    #{
+    #   return (string)$this->getName();
+    #} 
 }
